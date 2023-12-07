@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Metronic "Acidus" Frontend Freebie</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <div class="menu-container">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+						
+                        <div class="navbar-logo">
+                            <a class="navbar-logo-wrap" href="index.html">
+                                <img class="navbar-logo-img" src="img/logo.png" alt="Acidus Logo">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="navbar-nav navbar-nav-right">
+                                <li class="nav-item">
+                                    <a class="nav-item-child active" href="index.html">
+                                        Главная
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-item-child" href="about.html">
+                                        Ноутбуки
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-item-child" href="work.html">
+                                        Обратная связь
+                                    </a>
+                                </li>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="bg-color-sky-light">
+            <div class="content-md container">
+                <div class="masonry-grid">
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-6"></div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-6">
+                        <div class="work">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/595x483/01.jpg" alt="Portfolio Image">
+                            </div>
+                            <div class="work-content">
+                                <h3 class="color-white margin-b-5">Art Of Coding</h3>
+                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
+                            </div>
+                            <a class="content-wrapper-link" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-6">
+                        <div class="work">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/595x240/01.jpg" alt="Portfolio Image">
+                            </div>
+                            <div class="work-content">
+                                <h3 class="color-white margin-b-5">Clean Design</h3>
+                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
+                            </div>
+                            <a class="content-wrapper-link" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-6">
+                        <div class="work">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/595x240/02.jpg" alt="Portfolio Image">
+                            </div>
+                            <div class="work-content">
+                                <h3 class="color-white margin-b-5">Amazing Support</h3>
+                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
+                            </div>
+                            <a class="content-wrapper-link" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-md container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h2>Customer Reviews</h2>
+
+                    <div class="swiper-slider swiper-testimonials">
+                            <div class="swiper-slide">
+                                <blockquote class="blockquote">
+                                    <div class="margin-b-20">
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
+                                    </div>
+                                    <div class="margin-b-20">
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat siad minim aliqua.
+                                    </div>
+                                    <p><span class="fweight-700 color-link">Joh Milner</span>, Metronic Customer</p>
+                                </blockquote>
+                            </div>
+                           
+                        <div class="swiper-testimonials-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+
+    </body>
+</html>
